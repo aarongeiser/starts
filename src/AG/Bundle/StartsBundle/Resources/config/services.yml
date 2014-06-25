@@ -1,0 +1,7 @@
+parameters:
+#    ag_starts.example.class: AG\Bundle\StartsBundle\Example
+
+services:
+#    ag_starts.example:
+#        class: %ag_starts.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

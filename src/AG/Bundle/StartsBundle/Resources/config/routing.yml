@@ -1,0 +1,3 @@
+ag_starts_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AGStartsBundle:Default:index }
