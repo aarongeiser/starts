@@ -7,14 +7,6 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
-class DefaultController extends Controller
+class AuthController extends Controller
 {
-	 /**
-     * @Route("/test/{name}")
-     * @Method({"GET"})
-     */
-    public function indexAction($name)
-    {
-        return $this->render('AGStartsBundle:Default:index.html.twig', array('name' => $name));
-    }
 }

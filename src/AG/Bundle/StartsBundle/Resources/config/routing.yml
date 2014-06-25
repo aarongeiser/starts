@@ -1,3 +1,8 @@
 ag_starts_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: AGStartsBundle:Default:index }
+    resource: "@AGStartsBundle/Controller/DefaultController.php"
+    type:     annotation
+
+ag_starts_auth:
+    resource: "@AGStartsBundle/Controller/AuthController.php"
+    type:     annotation
+
